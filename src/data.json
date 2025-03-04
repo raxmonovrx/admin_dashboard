@@ -1,0 +1,362 @@
+[
+	{
+		"id": 1,
+		"name": "Ahmad Zayn",
+		"jobTitle": "Photographer at",
+		"company": "Audio Video Teams",
+		"phone": "+12 345 6789 0",
+		"email": "ahmadzayn@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 2,
+		"name": "Samar Bek",
+		"jobTitle": "Software Engineer at",
+		"company": "Tech Solutions",
+		"phone": "+98 765 4321 0",
+		"email": "samarbek@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 3,
+		"name": "Laylo Niyozova",
+		"jobTitle": "UI/UX Designer at",
+		"company": "Creative Studio",
+		"phone": "+77 123 4567 8",
+		"email": "laylo@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 4,
+		"name": "Rustam Hakimov",
+		"jobTitle": "Project Manager at",
+		"company": "Business Hub",
+		"phone": "+55 987 6543 2",
+		"email": "rustam@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 1,
+		"name": "Ahmad Zayn",
+		"jobTitle": "Photographer at",
+		"company": "Audio Video Teams",
+		"phone": "+12 345 6789 0",
+		"email": "ahmadzayn@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 2,
+		"name": "Samar Bek",
+		"jobTitle": "Software Engineer at",
+		"company": "Tech Solutions",
+		"phone": "+98 765 4321 0",
+		"email": "samarbek@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 3,
+		"name": "Laylo Niyozova",
+		"jobTitle": "UI/UX Designer at",
+		"company": "Creative Studio",
+		"phone": "+77 123 4567 8",
+		"email": "laylo@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 4,
+		"name": "Rustam Hakimov",
+		"jobTitle": "Project Manager at",
+		"company": "Business Hub",
+		"phone": "+55 987 6543 2",
+		"email": "rustam@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 1,
+		"name": "Ahmad Zayn",
+		"jobTitle": "Photographer at",
+		"company": "Audio Video Teams",
+		"phone": "+12 345 6789 0",
+		"email": "ahmadzayn@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 2,
+		"name": "Samar Bek",
+		"jobTitle": "Software Engineer at",
+		"company": "Tech Solutions",
+		"phone": "+98 765 4321 0",
+		"email": "samarbek@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 3,
+		"name": "Laylo Niyozova",
+		"jobTitle": "UI/UX Designer at",
+		"company": "Creative Studio",
+		"phone": "+77 123 4567 8",
+		"email": "laylo@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 4,
+		"name": "Rustam Hakimov",
+		"jobTitle": "Project Manager at",
+		"company": "Business Hub",
+		"phone": "+55 987 6543 2",
+		"email": "rustam@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 1,
+		"name": "Ahmad Zayn",
+		"jobTitle": "Photographer at",
+		"company": "Audio Video Teams",
+		"phone": "+12 345 6789 0",
+		"email": "ahmadzayn@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 2,
+		"name": "Samar Bek",
+		"jobTitle": "Software Engineer at",
+		"company": "Tech Solutions",
+		"phone": "+98 765 4321 0",
+		"email": "samarbek@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 3,
+		"name": "Laylo Niyozova",
+		"jobTitle": "UI/UX Designer at",
+		"company": "Creative Studio",
+		"phone": "+77 123 4567 8",
+		"email": "laylo@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 4,
+		"name": "Rustam Hakimov",
+		"jobTitle": "Project Manager at",
+		"company": "Business Hub",
+		"phone": "+55 987 6543 2",
+		"email": "rustam@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 1,
+		"name": "Ahmad Zayn",
+		"jobTitle": "Photographer at",
+		"company": "Audio Video Teams",
+		"phone": "+12 345 6789 0",
+		"email": "ahmadzayn@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 2,
+		"name": "Samar Bek",
+		"jobTitle": "Software Engineer at",
+		"company": "Tech Solutions",
+		"phone": "+98 765 4321 0",
+		"email": "samarbek@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 3,
+		"name": "Laylo Niyozova",
+		"jobTitle": "UI/UX Designer at",
+		"company": "Creative Studio",
+		"phone": "+77 123 4567 8",
+		"email": "laylo@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 4,
+		"name": "Rustam Hakimov",
+		"jobTitle": "Project Manager at",
+		"company": "Business Hub",
+		"phone": "+55 987 6543 2",
+		"email": "rustam@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 1,
+		"name": "Ahmad Zayn",
+		"jobTitle": "Photographer at",
+		"company": "Audio Video Teams",
+		"phone": "+12 345 6789 0",
+		"email": "ahmadzayn@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 2,
+		"name": "Samar Bek",
+		"jobTitle": "Software Engineer at",
+		"company": "Tech Solutions",
+		"phone": "+98 765 4321 0",
+		"email": "samarbek@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 3,
+		"name": "Laylo Niyozova",
+		"jobTitle": "UI/UX Designer at",
+		"company": "Creative Studio",
+		"phone": "+77 123 4567 8",
+		"email": "laylo@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 4,
+		"name": "Rustam Hakimov",
+		"jobTitle": "Project Manager at",
+		"company": "Business Hub",
+		"phone": "+55 987 6543 2",
+		"email": "rustam@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 1,
+		"name": "Ahmad Zayn",
+		"jobTitle": "Photographer at",
+		"company": "Audio Video Teams",
+		"phone": "+12 345 6789 0",
+		"email": "ahmadzayn@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 2,
+		"name": "Samar Bek",
+		"jobTitle": "Software Engineer at",
+		"company": "Tech Solutions",
+		"phone": "+98 765 4321 0",
+		"email": "samarbek@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 3,
+		"name": "Laylo Niyozova",
+		"jobTitle": "UI/UX Designer at",
+		"company": "Creative Studio",
+		"phone": "+77 123 4567 8",
+		"email": "laylo@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 4,
+		"name": "Rustam Hakimov",
+		"jobTitle": "Project Manager at",
+		"company": "Business Hub",
+		"phone": "+55 987 6543 2",
+		"email": "rustam@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 1,
+		"name": "Ahmad Zayn",
+		"jobTitle": "Photographer at",
+		"company": "Audio Video Teams",
+		"phone": "+12 345 6789 0",
+		"email": "ahmadzayn@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 2,
+		"name": "Samar Bek",
+		"jobTitle": "Software Engineer at",
+		"company": "Tech Solutions",
+		"phone": "+98 765 4321 0",
+		"email": "samarbek@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 3,
+		"name": "Laylo Niyozova",
+		"jobTitle": "UI/UX Designer at",
+		"company": "Creative Studio",
+		"phone": "+77 123 4567 8",
+		"email": "laylo@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 4,
+		"name": "Rustam Hakimov",
+		"jobTitle": "Project Manager at",
+		"company": "Business Hub",
+		"phone": "+55 987 6543 2",
+		"email": "rustam@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 1,
+		"name": "Ahmad Zayn",
+		"jobTitle": "Photographer at",
+		"company": "Audio Video Teams",
+		"phone": "+12 345 6789 0",
+		"email": "ahmadzayn@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 2,
+		"name": "Samar Bek",
+		"jobTitle": "Software Engineer at",
+		"company": "Tech Solutions",
+		"phone": "+98 765 4321 0",
+		"email": "samarbek@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 3,
+		"name": "Laylo Niyozova",
+		"jobTitle": "UI/UX Designer at",
+		"company": "Creative Studio",
+		"phone": "+77 123 4567 8",
+		"email": "laylo@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 4,
+		"name": "Rustam Hakimov",
+		"jobTitle": "Project Manager at",
+		"company": "Business Hub",
+		"phone": "+55 987 6543 2",
+		"email": "rustam@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 1,
+		"name": "Ahmad Zayn",
+		"jobTitle": "Photographer at",
+		"company": "Audio Video Teams",
+		"phone": "+12 345 6789 0",
+		"email": "ahmadzayn@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 2,
+		"name": "Samar Bek",
+		"jobTitle": "Software Engineer at",
+		"company": "Tech Solutions",
+		"phone": "+98 765 4321 0",
+		"email": "samarbek@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 3,
+		"name": "Laylo Niyozova",
+		"jobTitle": "UI/UX Designer at",
+		"company": "Creative Studio",
+		"phone": "+77 123 4567 8",
+		"email": "laylo@mail.com",
+		"image": "/image/contact_img.svg"
+	},
+	{
+		"id": 4,
+		"name": "Rustam Hakimov",
+		"jobTitle": "Project Manager at",
+		"company": "Business Hub",
+		"phone": "+55 987 6543 2",
+		"email": "rustam@mail.com",
+		"image": "/image/contact_img.svg"
+	}
+]

@@ -1,8 +1,15 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ProfileImg from '/image/contact_img.svg'
 
 export default function NavbarAvatar() {
 	const [isOpen, setIsOpen] = useState(false)
+	const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+
+	useEffect(() => {
+		const handleResize = () => setIsMobile(window.innerWidth < 768)
+		window.addEventListener('resize', handleResize)
+		return () => window.removeEventListener('resize', handleResize)
+	}, [])
 
 	return (
 		<header className='relative z-20 w-full border-b border-slate-200 bg-white/90 shadow-lg shadow-slate-700/5'>
@@ -12,14 +19,18 @@ export default function NavbarAvatar() {
 					className='flex h-[5.5rem] items-center justify-between font-medium text-slate-700'
 				>
 					<div className='ml-auto flex gap-4 items-center px-6 lg:p-0 relative'>
-						<img
-							src={ProfileImg}
-							alt='user name'
-							title='user name'
-							width={57}
-							height={57}
-							className='max-w-full rounded-full cursor-pointer'
-						/>
+						{isMobile ? (
+							''
+						) : (
+							<img
+								src={ProfileImg}
+								alt='user name'
+								title='user name'
+								width={57}
+								height={57}
+								className='max-w-full rounded-full cursor-pointer'
+							/>
+						)}
 						<div
 							className='flex items-center gap-2 cursor-pointer relative'
 							onClick={() => setIsOpen(!isOpen)}
@@ -51,7 +62,7 @@ export default function NavbarAvatar() {
 
 						{/* Dropdown Menu */}
 						{isOpen && (
-							<div className='absolute right-0 mt-20 w-30 bg-white border rounded-lg shadow-md'>
+							<div className='absolute right-0 mt- w-30 bg-white border rounded-lg shadow-md'>
 								<button
 									className='w-full px-4 py-2 text-left text-slate-700 hover:bg-gray-100 rounded-md cursor-pointer'
 									onClick={() => setIsOpen(false)}

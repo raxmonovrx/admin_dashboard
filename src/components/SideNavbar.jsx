@@ -63,6 +63,7 @@ export default function SideNavigationSeparator() {
 							<li className='px-3'>
 								<NavLink
 									to='/'
+									onClick={() => setIsSideNavOpen(false)}
 									className='flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 aria-[current=page]:bg-purple-50 aria-[current=page]:text-purple-600 '
 								>
 									<div className='flex items-center self-center'>
@@ -84,6 +85,7 @@ export default function SideNavigationSeparator() {
 							<li className='px-3'>
 								<NavLink
 									to='/analytics'
+									onClick={() => setIsSideNavOpen(false)}
 									className='flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 aria-[current=page]:bg-purple-50 aria-[current=page]:text-purple-600 '
 									aria-current='page'
 								>
@@ -114,6 +116,7 @@ export default function SideNavigationSeparator() {
 							<li className='px-3'>
 								<NavLink
 									to='data-sources'
+									onClick={() => setIsSideNavOpen(false)}
 									className='flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 aria-[current=page]:bg-purple-50 aria-[current=page]:text-purple-600 '
 								>
 									<div className='flex items-center self-center '>
@@ -137,6 +140,7 @@ export default function SideNavigationSeparator() {
 							<li className='px-3'>
 								<NavLink
 									to='/notifications'
+									onClick={() => setIsSideNavOpen(false)}
 									className='flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 aria-[current=page]:bg-purple-50 aria-[current=page]:text-purple-600 '
 								>
 									<div className='flex items-center self-center '>
@@ -164,6 +168,7 @@ export default function SideNavigationSeparator() {
 							<li className='px-3'>
 								<NavLink
 									to='/contacts'
+									onClick={() => setIsSideNavOpen(false)}
 									className='flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 aria-[current=page]:bg-purple-50 aria-[current=page]:text-purple-600 '
 								>
 									<div className='flex items-center self-center '>

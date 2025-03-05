@@ -1,10 +1,17 @@
 import React, { useState } from 'react'
-
 import { NavLink } from 'react-router-dom'
+import { useSwipeable } from 'react-swipeable'
 import Kleon_logo from '/icons/kleon_logo_01.svg'
 
 export default function SideNavigationSeparator() {
 	const [isSideNavOpen, setIsSideNavOpen] = useState(false)
+
+	const handlers = useSwipeable({
+		onSwipedLeft: () => setIsSideNavOpen(false), // Chapga sursa yopiladi
+		onSwipedRight: () => setIsSideNavOpen(true), // O'ngga sursa ochiladi
+		preventScrollOnSwipe: true,
+		trackMouse: true,
+	})
 
 	return (
 		<>
@@ -40,6 +47,7 @@ export default function SideNavigationSeparator() {
 
 			{/*  <!-- Side Navigation --> */}
 			<aside
+				{...handlers}
 				id='nav-menu-2'
 				aria-label='Side navigation'
 				className={`absolute top-0 bottom-0 left-0 z-40 flex w-72 flex-col h-screen border-r border-r-slate-200 bg-white transition-transform duration-300 md:translate-x-0 ${

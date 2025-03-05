@@ -13,7 +13,7 @@ const App = () => {
 	}, [])
 
 	return (
-		<div className='max-w-[1680px] mx-auto relative bg-[#F9F9F9] h-screen flex flex-col'>
+		<div className='max-w-[1680px] mx-auto relative bg-[#F9F9F9] h-screen flex flex-col select-none'>
 			<SideNavigationSeparator />
 			<NavbarAvatar />
 
@@ -24,7 +24,6 @@ const App = () => {
 					} transition-all duration-300`}
 				></div>
 
-				{/* Scroll faqat Card containerida bo'ladi */}
 				<div className='w-full h-[calc(100vh-110px)] overflow-auto'>
 					<Card />
 				</div>

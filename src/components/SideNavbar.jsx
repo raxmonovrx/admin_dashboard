@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+import { NavLink } from 'react-router-dom'
 import Kleon_logo from '/icons/kleon_logo_01.svg'
 
 export default function SideNavigationSeparator() {
@@ -60,8 +61,8 @@ export default function SideNavigationSeparator() {
 					<div>
 						<ul className='flex flex-1 flex-col gap-1 py-3'>
 							<li className='px-3'>
-								<a
-									href='#'
+								<NavLink
+									to='/'
 									className='flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 aria-[current=page]:bg-purple-50 aria-[current=page]:text-purple-600 '
 								>
 									<div className='flex items-center self-center'>
@@ -78,11 +79,11 @@ export default function SideNavigationSeparator() {
 									<div className='flex w-full flex-1 flex-col items-start justify-center gap-0 overflow-hidden truncate text-sm'>
 										Dashboard
 									</div>
-								</a>
+								</NavLink>
 							</li>
 							<li className='px-3'>
-								<a
-									href='#'
+								<NavLink
+									to='/analytics'
 									className='flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 aria-[current=page]:bg-purple-50 aria-[current=page]:text-purple-600 '
 									aria-current='page'
 								>
@@ -108,11 +109,11 @@ export default function SideNavigationSeparator() {
 									<div className='flex w-full flex-1 flex-col items-start justify-center gap-0 overflow-hidden truncate text-sm'>
 										Analytics
 									</div>
-								</a>
+								</NavLink>
 							</li>
 							<li className='px-3'>
-								<a
-									href='#'
+								<NavLink
+									to='data-sources'
 									className='flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 aria-[current=page]:bg-purple-50 aria-[current=page]:text-purple-600 '
 								>
 									<div className='flex items-center self-center '>
@@ -131,11 +132,11 @@ export default function SideNavigationSeparator() {
 									<div className='flex w-full flex-1 flex-col items-start justify-center gap-0 overflow-hidden truncate text-sm'>
 										Data Sources
 									</div>
-								</a>
+								</NavLink>
 							</li>
 							<li className='px-3'>
-								<a
-									href='#'
+								<NavLink
+									to='/notifications'
 									className='flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 aria-[current=page]:bg-purple-50 aria-[current=page]:text-purple-600 '
 								>
 									<div className='flex items-center self-center '>
@@ -158,11 +159,11 @@ export default function SideNavigationSeparator() {
 									<span className='inline-flex items-center justify-center rounded-full bg-purple-100-100 px-2 text-xs text-purple-600 '>
 										2<span className='sr-only'> new notifications</span>
 									</span>
-								</a>
+								</NavLink>
 							</li>
 							<li className='px-3'>
-								<a
-									href='#'
+								<NavLink
+									to='/contacts'
 									className='flex items-center gap-3 rounded p-3 text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 aria-[current=page]:bg-purple-50 aria-[current=page]:text-purple-600 '
 								>
 									<div className='flex items-center self-center '>
@@ -178,7 +179,7 @@ export default function SideNavigationSeparator() {
 									<div className='flex w-full flex-1 flex-col items-start justify-center gap-0 overflow-hidden truncate text-sm'>
 										User Management
 									</div>
-								</a>
+								</NavLink>
 							</li>
 						</ul>
 					</div>

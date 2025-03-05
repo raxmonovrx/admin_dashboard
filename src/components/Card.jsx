@@ -2,7 +2,7 @@ import Data from '../data.json'
 import MailIcon from '/icons/iconMail.svg'
 import PhoneIcon from '/icons/iconPhone.svg'
 
-const Card = () => {
+const CardContact = () => {
 	return (
 		<div className='grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-4 p-1'>
 			{Data.map(user => (
@@ -66,4 +66,4 @@ const Card = () => {
 	)
 }
 
-export default Card
+export default CardContact
